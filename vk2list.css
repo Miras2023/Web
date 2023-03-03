@@ -1,0 +1,15 @@
+.white{
+    background-color: rgba(233,235,238);
+    display: flex;flex-wrap:wrap;
+    height: 100%;
+    width: 100%;
+    }
+    .jogargy-fon{
+background-color: rgb(76,116,163);
+height: 45px;
+width: 100%;
+    }
+    .left-fon{
+        margin-bottom: 350px;
+        margin-left: 130px;
+    }
