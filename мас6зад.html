@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>VK</title>
+    <link rel="stylesheet" type="text/css" href="sada.css">
+</head>
+<script>
+    let id = 0;
+    let size = 0
+    let arrayStudents = []
+
+    while (true) {
+        id++;
+        let x = parseInt(prompt("Press 1 to ADD STUDENT" + '\n' + "Press 2 to LIST STUDENT" + '\n' + "Press 0 to EXIT"))
+        if (x == 1) {
+            let name = prompt("INSERT NAME:")
+            let surname = prompt("INSERT SURNAME:")
+            let gpa = parseInt(prompt("INSERT GPA"))
+
+            arrayStudents[size] = ["№" + id + " " + name + " " + surname + " " + gpa]
+            size++;
+        }
+
+        if (x == 2) {
+            for (let i = 0; i < arrayStudents.length; i++)
+             {
+                alert(arrayStudents[i] + " ")
+            }
+        }
+        if (x == 0) { break; 
+        }
+    }
+
+
+
+
+
+
+</script>
+
+</html>
